@@ -20,14 +20,14 @@
             <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
+            <RowDefinition Height="30" />
             <RowDefinition Height="auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="20" />
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Column="1" Grid.Row="1" FontSize="28">
-            Hello World        
+            Hello World!        
         </TextBlock>
     </Grid>
 </Window>
