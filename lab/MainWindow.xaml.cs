@@ -24,5 +24,10 @@ namespace lab
         {
             InitializeComponent();
         }
+
+        private void connectButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show($"Select a username");
+        }
     }
 }
