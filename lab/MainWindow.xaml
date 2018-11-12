@@ -46,8 +46,8 @@
         <TextBox x:Name="Port" Grid.Column="6" Grid.Row="5"
                  Width="130" Margin="0" />
         
-        <Button x:Name="submitButton" Content="Connect" 
+        <Button x:Name="connectButton" Content="Connect" 
                 Grid.Column="7" Grid.Row="5" Grid.ColumnSpan="2"
-                Margin="20" Click="submitButton_Click"/>
+                Margin="20" Click="connectButton_Click"/>
     </Grid>
 </Window>
