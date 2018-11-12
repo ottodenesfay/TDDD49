@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="TDDD49 P2P-Chat" Height="450" Width="700"
         FontSize="18" 
-        FontFamily="Segoe UI Light">
+        FontFamily="Segoe UI Light" Background="White">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20" />
@@ -37,5 +37,5 @@
         <Button x:Name="submitButton" Content="Submit" 
                 Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="2"
                 Margin="20" Click="submitButton_Click"/>
-    </Grid>  
+    </Grid>
 </Window>
