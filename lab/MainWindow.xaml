@@ -25,7 +25,9 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="20" />
         </Grid.RowDefinitions>
-        
-        <TextBlock
+
+        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="28">
+            Hello World        
+        </TextBlock>
     </Grid>
 </Window>
