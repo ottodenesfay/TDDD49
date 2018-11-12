@@ -24,5 +24,10 @@ namespace lab
         {
             InitializeComponent();
         }
+
+        private void submitButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show($"Hello {firstNameText.Text}");
+        }
     }
 }

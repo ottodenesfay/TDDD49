@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lab"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="TDDD49 P2P-Chat" Height="450" Width="700"
+        FontSize="18" 
+        FontFamily="Segoe UI Light">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20" />
@@ -25,9 +27,15 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="20" />
         </Grid.RowDefinitions>
-
-        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="28">
-            Hello World        
-        </TextBlock>
-    </Grid>
+        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="50"
+                   Text="TDDD49 Chat" Grid.ColumnSpan="2" 
+                   Margin="0,0,0,10"/>
+        <TextBlock Grid.Column="1" Grid.Row="2" FontWeight="Bold"
+                   Text="First Name" Margin="10,0"/>
+        <TextBox x:Name="firstNameText" Grid.Column="2" Grid.Row="2"
+                 Width="130" />
+        <Button x:Name="submitButton" Content="Submit" 
+                Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="2"
+                Margin="20" Click="submitButton_Click"/>
+    </Grid>  
 </Window>
