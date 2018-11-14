@@ -49,5 +49,9 @@
         <Button x:Name="connectButton" Content="Connect" 
                 Grid.Column="7" Grid.Row="5" Grid.ColumnSpan="2"
                 Margin="20" Click="connectButton_Click"/>
+
+        <Button x:Name="listenButton" Content="Listen"
+                Grid.Column="7" Grid.Row="6" Grid.ColumnSpan="2"
+                Margin="20" Click="listenButton_Click" />
     </Grid>
 </Window>
