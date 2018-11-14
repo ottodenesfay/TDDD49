@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:lab"
         mc:Ignorable="d"
         Title="TDDD49 P2P-Chat" Height="450" Width="700"
-        FontSize="18" 
+        FontSize="18"
         FontFamily="Segoe UI Light" Background="White">
     <Grid>
         <Grid.ColumnDefinitions>
