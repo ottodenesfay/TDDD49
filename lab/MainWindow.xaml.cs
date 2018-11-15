@@ -65,9 +65,12 @@ namespace lab
             listen_s.Bind(listen_ipe);
             listen_s.Listen(1);
             MessageBox.Show("Listening: IP=" + ip_listen + " Port=" + port_listen);
-            byte[] bytes = new byte[1024];
-            int bytesRec = listen_s.Receive(bytes);
-            MessageBox.Show("Text received: " + System.Text.Encoding.ASCII.GetString(bytes, 0, bytesRec));
+            while (true)
+            {
+                byte[] bytes = new byte[1024];
+                int bytesRec = listen_s.Receive(bytes);
+                MessageBox.Show("Text received: " + System.Text.Encoding.ASCII.GetString(bytes, 0, bytesRec));
+            }
         }
     }
 }
